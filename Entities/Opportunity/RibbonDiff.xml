@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="safe.docusign.ApplicationRibbon.ActionFlyoutMenuSection.Controls.ActionFlyoutButton.Hide" Location="docusign.ApplicationRibbon.opportunity.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.ActionFlyoutMenuSection.Controls.ActionFlyoutButton" />
+    <HideCustomAction HideActionId="safe.docusign.ApplicationRibbon.n.Hide" Location="docusign.ApplicationRibbon.opportunity.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.GoToDocuSignMenuSection.Controls.GoToDocuSignButton" />
+    <HideCustomAction HideActionId="safe.docusign.ApplicationRibbon.opportunity.Menu.SignMenuSection.Controls.SignButton.Hide" Location="docusign.ApplicationRibbon.opportunity.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.SignMenuSection.Controls.SignButton" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.opportunity.Reports.Hide" Location="Mscrm.Form.opportunity.Reports" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.opportunity.WordTemplate.Hide" Location="Mscrm.Form.opportunity.WordTemplate" />
+    <CustomAction Id="safe.opportunity.GenerateSafeContractorInvoice.Button.CustomAction" Location="Mscrm.Form.opportunity.MainTab.Actions.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Command="safe.opportunity.GenerateSafeContractorInvoice.Command" Id="safe.opportunity.GenerateSafeContractorInvoice.Button" LabelText="$LocLabels:safe.opportunity.GenerateSafeContractorInvoice.Button.LabelText" Sequence="5" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="safe.samar.opportunity.CreateSiteVisit.Button.CustomAction" Location="Mscrm.Form.opportunity.MainTab.Actions.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Command="samar.opportunity.CreateSiteVisit.Command" Id="samar.opportunity.CreateSiteVisit.Button" LabelText="$LocLabels:samar.opportunity.CreateSiteVisit.Button.LabelText" Sequence="5" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="DocuSign.Form.SendToDocuSign.GoToDocuSignCommand">
+      <EnableRules>
+        <EnableRule Id="DocuSign.Form.SendToDocuSign.GoToDocuSignCommand.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="DocuSign.Form.SendToDocuSign.GoToDocuSignCommand.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="DocuSignRibbonCommands.onGoToDocuSignRibbonButtonClick" Library="$webresource:docusign_RibbonSignFromAnywhereJS" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="safe.opportunity.GenerateSafeContractorInvoice.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="safe.opportunity.GenerateSafeContractorInvoice.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Safe.Common.onClickButtonUpdateEntity" Library="$webresource:safe_common.js">
+          <CrmParameter Value="PrimaryControl" />
+          <StringParameter Value="opportunity" />
+          <StringParameter Value="e48cc69f-c14b-ed11-bba1-000d3aaae992" />
+          <StringParameter Value="We have received your request, to find the invoice please go to Invoices and refresh. This can take a few minutes." />
+          <StringParameter Value="Generate SafeContractor Invoice" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="samar.opportunity.CreateSiteVisit.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CreateSitevisits" Library="$webresource:samar_calculatepsmsitevisits">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="DocuSign.Form.SendToDocuSign.GoToDocuSignCommand.DisplayRule">
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="safe.opportunity.GenerateSafeContractorInvoice.DisplayRule">
+        <ValueRule Field="statecode" Value="0" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="DocuSign.Form.SendToDocuSign.GoToDocuSignCommand.EnableRule">
+        <CustomRule FunctionName="DocuSignRibbonCommands.isGoToDocuSignRibbonButtonEnabled" Library="$webresource:docusign_RibbonSignFromAnywhereJS" Default="false" />
+      </EnableRule>
+      <EnableRule Id="safe.opportunity.GenerateSafeContractorInvoice.EnableRule">
+        <CustomRule FunctionName="Safe.Common.buttonDisplayRuleByBrand" Library="$webresource:safe_common.js">
+          <CrmParameter Value="PrimaryControl" />
+          <StringParameter Value="opportunity" />
+          <StringParameter Value="_safe_brand_value" />
+          <StringParameter Value="e48cc69f-c14b-ed11-bba1-000d3aaae992" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="safe.opportunity.GenerateSafeContractorInvoice.Button.LabelText">
+      <Titles>
+        <Title description="Generate Invoice" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="samar.opportunity.CreateSiteVisit.Button.LabelText">
+      <Titles>
+        <Title description="Create Site Visit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

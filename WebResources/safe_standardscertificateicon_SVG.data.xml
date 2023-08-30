@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{8fcc3cf6-c3d3-ed11-a7c7-000d3aaae53e}</WebResourceId>
+  <Name>safe_standardscertificateicon_SVG</Name>
+  <DisplayName>Standards Certificate Icon</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>9.1.1.266</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/safe_standardscertificateicon_SVG8FCC3CF6-C3D3-ED11-A7C7-000D3AAAE53E</FileName>
+</WebResource>

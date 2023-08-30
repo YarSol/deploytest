@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{369e6996-3531-ee11-bdf4-000d3aaae53e}</WebResourceId>
+  <Name>safe_isoqar_opportunity.js</Name>
+  <DisplayName>safe_isoqar_opportunity.js</DisplayName>
+  <Description>Script for "ISOQAR lead" lead entity form</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>9.1.1.412</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/safe_isoqar_opportunityjs369E6996-3531-EE11-BDF4-000D3AAAE53E</FileName>
+</WebResource>

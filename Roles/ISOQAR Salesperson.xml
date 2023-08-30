@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{b7026d44-c0cf-ed11-b597-000d3aaae503}" name="ISOQAR Salesperson" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendsafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvAppendTosafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvCreatesafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletesafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadsafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWritesafe_bpf_790a369b76444b419761dc0986298cee" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

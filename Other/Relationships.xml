@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee" />
+  <EntityRelationship Name="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" />
+  <EntityRelationship Name="lead_parent_account" unmodified="1" />
+  <EntityRelationship Name="lk_safe_bpf_790a369b76444b419761dc0986298cee_activestageid" />
+  <EntityRelationship Name="lk_safe_bpf_790a369b76444b419761dc0986298cee_createdby" />
+  <EntityRelationship Name="lk_safe_bpf_790a369b76444b419761dc0986298cee_modifiedby" />
+  <EntityRelationship Name="lk_safe_bpf_790a369b76444b419761dc0986298cee_processid" />
+  <EntityRelationship Name="organization_safe_bpf_790a369b76444b419761dc0986298cee" />
+  <EntityRelationship Name="safe_consultantreferrals_ianconsultancies" />
+  <EntityRelationship Name="safe_lead_accountprofile_partnerlookup" />
+  <EntityRelationship Name="safe_opportunity_accountprofile_partnerlookup" />
+  <EntityRelationship Name="samar_consultantreferrals_relatedopportunity" />
+</EntityRelationships>

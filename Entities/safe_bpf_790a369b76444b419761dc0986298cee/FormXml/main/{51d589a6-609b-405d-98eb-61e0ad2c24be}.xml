@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{51d589a6-609b-405d-98eb-61e0ad2c24be}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{db861132-1718-41dd-b0f7-2c0781c9f3fa}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{a94af578-c0bf-494b-987e-87a18a8ec48f}">
+          <labels>
+            <label description="Pre-Qualify" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f2c0ecaf-aa72-4ded-7aad-7df77638f4e6}" name="StageStep5_section1" labelid="{577fb47a-bc70-4bd8-b483-1b647190bb44}">
+                  <labels>
+                    <label description="Pre-Qualify" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{69fdd0bd-cf02-4331-bb79-774c52b2bce7}" showlabel="true" visible="true" labelid="{c618b9de-6f56-49b4-8524-ed3cdc40260d}">
+                        <labels>
+                          <label description="Lead Source" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee:leadsourcecode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="leadsourcecode" disabled="false" relationship="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{9532732d-f588-40e3-a447-635663dd0403}" name="StageStep9" locklevel="0" expanded="true" visible="false" labelid="{260428fb-de8a-4cbf-b275-987b77a3e3e8}">
+          <labels>
+            <label description="Qualify" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6261a382-6b84-11dc-1e63-eb3aa9366ed8}" name="StageStep9_section1" labelid="{8475aadd-042d-45fd-93ba-4492532f8f52}">
+                  <labels>
+                    <label description="Qualify" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e76e82e6-7978-40a2-819b-d518e2c63c9d}" showlabel="true" visible="true" labelid="{350880c7-992e-461c-bf96-4f8466273b28}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee:parentaccountid" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="parentaccountid" disabled="false" relationship="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6b2f44d-5d3e-491e-8bd0-980368cb4e04}" showlabel="true" visible="true" labelid="{e76bb386-12ea-40fd-9fb2-a70fff318632}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee:parentcontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="parentcontactid" disabled="false" relationship="bpf_lead_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{b379ec07-6ced-4a89-889c-f33401b2a59e}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{e7a2e19a-d1ab-43bb-bd2b-5fc7f975744e}">
+          <labels>
+            <label description="Develop" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{37e1d968-76bf-f00f-e030-fe343fe830bf}" name="StageStep15_section1" labelid="{0f28f82e-39b0-496f-aa40-cde72aa7803e}">
+                  <labels>
+                    <label description="Develop" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6718651b-90a0-421e-b98b-1117e8463ed8}" showlabel="true" visible="true" labelid="{c0aa70e4-9d8f-4511-b801-0099de368357}">
+                        <labels>
+                          <label description="Est. close date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee:estimatedclosedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="estimatedclosedate" disabled="false" relationship="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c14382f-34d5-41c9-88a1-635b97f3f73b}" showlabel="true" visible="true" labelid="{513fcced-0fbe-4e8d-aeb5-12e883b32e23}">
+                        <labels>
+                          <label description="Est. Revenue (Base)" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee:estimatedvalue_base" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="estimatedvalue_base" disabled="false" relationship="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{a5ab5ba0-6950-4c42-9de7-9cce6cebe16a}" name="StageStep21" locklevel="0" expanded="true" visible="false" labelid="{e6ed0842-7579-421b-941f-285060e0ca6b}">
+          <labels>
+            <label description="Propose" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{96403d39-4060-1487-0adc-a2f767d46701}" name="StageStep21_section1" labelid="{37c47792-4ad3-4e69-90eb-919eb94a5394}">
+                  <labels>
+                    <label description="Propose" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{251855a7-60d0-486e-ab15-505ab9e750ac}" showlabel="true" visible="true" labelid="{7cd0e45c-3d66-46a6-8b91-927fdc650521}">
+                        <labels>
+                          <label description="Est. close date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee:estimatedclosedate" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="estimatedclosedate" disabled="false" relationship="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{73b8c031-ead7-4c02-8ab4-e9dbf587f99e}" name="StageStep25" locklevel="0" expanded="true" visible="false" labelid="{6bac905d-6dc9-4c5f-9413-318e01afbc89}">
+          <labels>
+            <label description="Negotiate" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{a067db26-c72b-9074-1180-4a611ddce6f0}" name="StageStep25_section1" labelid="{94d0a663-729e-4dd7-b9ff-24641bfbc1e8}">
+                  <labels>
+                    <label description="Negotiate" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5ff0b4e1-e0b8-4940-97af-2eebca7f2f3d}" showlabel="true" visible="true" labelid="{f783dd66-0190-4477-aafc-d688b81a5084}">
+                        <labels>
+                          <label description="Est. close date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee:estimatedclosedate" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="estimatedclosedate" disabled="false" relationship="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{a64dac93-7ace-40d5-a784-425c35a77060}" name="StageStep29" locklevel="0" expanded="true" visible="false" labelid="{4e4061df-182e-4231-aa0b-6c854fb830b7}">
+          <labels>
+            <label description="Close" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{17bb384b-f18d-10b9-206f-ff4d711ffb3e}" name="StageStep29_section1" labelid="{29c7a4aa-4dcf-4049-8f4b-3991636fc100}">
+                  <labels>
+                    <label description="Close" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2851645f-0027-4478-83a8-5d239c08d73d}" showlabel="true" visible="true" labelid="{7dc37a95-347d-4229-972e-fc4381f6d18b}">
+                        <labels>
+                          <label description="Contract Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee:samar_contractstartdate" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="samar_contractstartdate" disabled="false" relationship="bpf_opportunity_safe_bpf_790a369b76444b419761dc0986298cee" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

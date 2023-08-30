@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="safe.AccessChecker.OpenDialog.contact.Button.Hide" Location="AccessChecker.OpenDialog.contact.Button" />
+    <HideCustomAction HideActionId="safe.docusign..Group.Controls.DocuSignButton.Menu.SignMenuSection.Controls.SignButton.Hide" Location="docusign.ApplicationRibbon.contact.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.SignMenuSection.Controls.SignButton" />
+    <HideCustomAction HideActionId="safe.docusign.Application.GoToDocuSignMenuSection.Controls.GoToDocuSignButton.Hide" Location="docusign.ApplicationRibbon.contact.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.GoToDocuSignMenuSection.Controls.GoToDocuSignButton" />
+    <HideCustomAction HideActionId="safe.docusign.Menu.ActionFlyoutMenuSection.Controls.ActionFlyoutButton.Hide" Location="docusign.ApplicationRibbon.contact.Form.SendToDocuSign.Group.Controls.DocuSignButton.Menu.ActionFlyoutMenuSection.Controls.ActionFlyoutButton" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.AddToQueue.Hide" Location="Mscrm.Form.contact.AddToQueue" />
+    <CustomAction Id="safe.Mscrm.Form.contact.Delete.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="65">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeletePrimaryRecord" Id="Mscrm.Form.contact.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/delete16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="65" TemplateAlias="o2" ToolTipTitle="$Resources:Mscrm_Form_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Delete" ModernImage="Remove" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.QueueItemDetail.Hide" Location="Mscrm.Form.contact.QueueItemDetail" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.QueueItemDetailOmnichannel.Hide" Location="Mscrm.Form.contact.QueueItemDetailOmnichannel" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.Reports.Hide" Location="Mscrm.Form.contact.Reports" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.RunScript.Hide" Location="Mscrm.Form.contact.RunScript" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.RunWorkflow.Hide" Location="Mscrm.Form.contact.RunWorkflow" />
+    <HideCustomAction HideActionId="safe.Mscrm.Form.contact.WordTemplate.Hide" Location="Mscrm.Form.contact.WordTemplate" />
+    <HideCustomAction HideActionId="safe.Mscrm.HomepageGrid.contact.AddToQueue.Hide" Location="Mscrm.HomepageGrid.contact.AddToQueue" />
+    <CustomAction Id="safe.Mscrm.HomepageGrid.contact.DeleteMenu.CustomAction" Location="Mscrm.HomepageGrid.contact.MainTab.Management.Controls._children" Sequence="50">
+      <CommandUIDefinition>
+        <SplitButton Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.HomepageGrid.DeleteSplitButtonCommand" Id="Mscrm.HomepageGrid.contact.DeleteMenu" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/Delete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="50" TemplateAlias="o2" ToolTipTitle="$Resources:Mscrm_HomepageGrid_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.HomepageGrid.Tooltip.Delete" ModernImage="Remove">
+          <Menu Id="Mscrm.HomepageGrid.contact.DeleteMenu.Menu">
+            <MenuSection Id="Mscrm.HomepageGrid.contact.DeleteMenu.MenuSection" Sequence="10" DisplayMode="Menu16">
+              <Controls Id="Mscrm.HomepageGrid.contact.DeleteMenu.MenuSection.Controls">
+                <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeleteSelectedRecord" Id="Mscrm.HomepageGrid.contact.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/Delete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="50" ToolTipTitle="$Resources:Mscrm_HomepageGrid_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.HomepageGrid.Tooltip.Delete" ModernImage="Remove" />
+                <Button Command="Mscrm.HomepageGrid.BulkDelete" Id="Mscrm.HomepageGrid.contact.BulkDelete" Image32by32="/_imgs/ribbon/BulkDeleteWizard_32.png" Image16by16="/_imgs/ribbon/BulkDelete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete" Sequence="100" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete" ToolTipDescription="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete.TooltipDescription" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="safe.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="safe.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="safe.Mscrm.HomepageGrid.contact.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.contact.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="safe.Mscrm.SubGrid.contact.AddToQueue.Hide" Location="Mscrm.SubGrid.contact.AddToQueue" />
+    <CustomAction Id="safe.Mscrm.SubGrid.contact.Delete.CustomAction" Location="Mscrm.SubGrid.contact.MainTab.Management.Controls._children" Sequence="80">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeleteSelectedRecord" Id="Mscrm.SubGrid.contact.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/Delete_16.png" LabelText="$Resources(EntityDisplayName):Ribbon.SubGrid.MainTab.Management.Delete" Sequence="80" TemplateAlias="o2" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.HomepageGrid.Tooltip.Delete" ModernImage="Remove" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="safe.Mscrm.SubGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="safe.msdyn.Form.contact.ApplyCadence.Button.Hide" Location="msdyn.Form.contact.ApplyCadence.Button" />
+    <HideCustomAction HideActionId="safe.msdyn.Form.contact.DisconnectSequence.Button.Hide" Location="msdyn.Form.contact.DisconnectSequence.Button" />
+    <HideCustomAction HideActionId="safe.msdyn.HomepageGrid.contact.ApplyCadence.Button.Hide" Location="msdyn.HomepageGrid.contact.ApplyCadence.Button" />
+    <HideCustomAction HideActionId="safe.msdyn.HomepageGrid.contact.DisconnectSequence.Button.Hide" Location="msdyn.HomepageGrid.contact.DisconnectSequence.Button" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.DeletePrimaryRecord">
+      <EnableRules>
+        <EnableRule Id="Mscrm.FormStateNotNew" />
+        <EnableRule Id="Mscrm.CanDeletePrimary" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="safe.contact.DeleteButton.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.DeletePrimaryEntityPermission" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Delete.deletePrimaryRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.DeleteSelectedRecord">
+      <EnableRules>
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="safe.contact.DeleteButton.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.NotShowForManyToManyGrids" />
+        <DisplayRule Id="Mscrm.DeleteSelectedEntityPermission" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Mscrm.GridCommandActions.deleteRecords" Library="/_static/_common/scripts/CommandBarActions.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeCode" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.HomepageGrid.DeleteSplitButtonCommand">
+      <EnableRules>
+        <EnableRule Id="Mscrm.DeleteSplitButtonEnableRule" />
+        <EnableRule Id="Mscrm.AnySelection" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="safe.contact.DeleteButton.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.DeleteSplitButtonDisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Delete.deleteRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="Mscrm.DeletePrimaryEntityPermission">
+        <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.DeleteSelectedEntityPermission">
+        <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.DeleteSplitButtonDisplayRule">
+        <OrRule>
+          <Or>
+            <RelationshipTypeRule AppliesTo="SelectedEntity" RelationshipType="ManyToMany" InvertResult="true" />
+            <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+          </Or>
+          <Or>
+            <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="GridFiltersEnabled" PropertyValue="true" />
+            <MiscellaneousPrivilegeRule PrivilegeName="BulkDelete" />
+            <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
+          </Or>
+        </OrRule>
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.NotShowForManyToManyGrids">
+        <RelationshipTypeRule AppliesTo="SelectedEntity" RelationshipType="ManyToMany" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="Mscrm.AnySelection">
+        <SelectionCountRule AppliesTo="SelectedEntity" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.CanDeletePrimary">
+        <RecordPrivilegeRule PrivilegeType="Delete" AppliesTo="PrimaryEntity" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.DeleteSplitButtonEnableRule">
+        <OrRule>
+          <Or>
+            <CustomRule FunctionName="XrmCore.Rules.Charts.disableButtonsWhenChartMaximized" Library="$webresource:Main_system_library.js">
+              <CrmParameter Value="SelectedControl" />
+            </CustomRule>
+          </Or>
+          <Or>
+            <CommandClientTypeRule Type="Modern" />
+          </Or>
+        </OrRule>
+        <CustomRule FunctionName="XrmCore.Rules.Delete.shouldShowDeleteSplitButton" Library="$webresource:Main_system_library.js" Default="true">
+          <CrmParameter Value="SelectedControlSelectedItemCount" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.FormStateNotNew">
+        <FormStateRule State="Create" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline">
+        <CustomRule FunctionName="XrmCore.Rules.Online.IsEntityAvailableForUserInMocaOffline" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountAtLeastOne">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.VisualizationPaneNotMaximized">
+        <OrRule>
+          <Or>
+            <CommandClientTypeRule Type="Modern" />
+          </Or>
+          <Or>
+            <CustomRule FunctionName="Mscrm.GridCommandActions.disableButtonsWhenChartMaximized" Library="/_static/_common/scripts/CommandBarActions.js">
+              <CrmParameter Value="SelectedControl" />
+            </CustomRule>
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="safe.contact.DeleteButton.EnableRule">
+        <CustomRule FunctionName="Safe.Common.iSUserHasSecurityRole" Library="$webresource:safe_common.js" Default="false">
+          <StringParameter Value="System Administrator" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

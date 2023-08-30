@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginAssemblyId="6634254a-889b-4bba-a20c-271dc9589d10" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/AlcumusCRMSafePlugins-6634254A-889B-4BBA-A20C-271DC9589D10/AlcumusCRMSafePlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PluginBase, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="378f4880-451a-4606-af87-29e6e6dec004" Name="Alcumus.CRM.Safe.Plugins.Plugin.PluginBase">
+      <FriendlyName>5c9706b6-a2f1-4eaa-9dd6-6921bcec7f6e</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PostCreateOpportunityProduct, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="7ab52894-3032-4710-adc7-3324f915b31a" Name="Alcumus.CRM.Safe.Plugins.Plugin.PostCreateOpportunityProduct">
+      <FriendlyName>df5a69c0-130f-4121-b364-4e7114087947</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PostUpdateNoOfEmployeesOnAccount, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="dd3470b5-a2ba-4920-9c35-839064a84c35" Name="Alcumus.CRM.Safe.Plugins.Plugin.PostUpdateNoOfEmployeesOnAccount">
+      <FriendlyName>3b816d49-c73a-4967-acc1-758e1948e2ae</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PostUpdatePriceBandOnOpportunity, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="a8458913-b8d2-4625-a8b7-d83d68a138e9" Name="Alcumus.CRM.Safe.Plugins.Plugin.PostUpdatePriceBandOnOpportunity">
+      <FriendlyName>a6325a71-f19b-4b8d-a47a-24a79f93c377</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PreCreateDiscountCodes, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="db4f2929-3fed-4f5d-a9b3-0d7cffd3034d" Name="Alcumus.CRM.Safe.Plugins.Plugin.PreCreateDiscountCodes">
+      <FriendlyName>9ce52b6d-4a25-4fff-a448-b69cdcf67bde</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PreOperationAccountMerge, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="51af447f-81e7-47cc-9b62-cb102bceff10" Name="Alcumus.CRM.Safe.Plugins.Plugin.PreOperationAccountMerge">
+      <FriendlyName>2095c057-04ac-4bed-ae32-5666bcc601b3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.Plugin.PreQualifyLeads, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="ad18a460-55e4-49ff-9546-2fd7acfe70b8" Name="Alcumus.CRM.Safe.Plugins.Plugin.PreQualifyLeads">
+      <FriendlyName>7b56a172-1cbe-4276-8230-f9a1c80d6e75</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Alcumus.CRM.Safe.Plugins.RestrictDeletePQQProduct, Alcumus.CRM.Safe.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d58af8149cd06942" PluginTypeId="61def48b-a5e2-4645-9f6a-9bf7d30400b5" Name="Alcumus.CRM.Safe.Plugins.RestrictDeletePQQProduct">
+      <FriendlyName>a81b0394-ca97-40db-adc9-9df362c3b563</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

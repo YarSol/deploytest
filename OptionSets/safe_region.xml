@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="safe_region" localizedName="Region" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>9.1.1.414</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Region" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="779150000">
+      <labels>
+        <label description="London" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150001">
+      <labels>
+        <label description="South East" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150002">
+      <labels>
+        <label description="South West" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150003">
+      <labels>
+        <label description="East Midlands" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150004">
+      <labels>
+        <label description="West Midlands" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150005">
+      <labels>
+        <label description="North East" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150006">
+      <labels>
+        <label description="North West" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150007">
+      <labels>
+        <label description="Yorkshire &amp; The Humber" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150008">
+      <labels>
+        <label description="Wales" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150009">
+      <labels>
+        <label description="Scotland" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="779150010">
+      <labels>
+        <label description="Northern Ireland" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

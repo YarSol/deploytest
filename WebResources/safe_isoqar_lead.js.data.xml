@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{4ac145d6-b632-ee11-bdf4-000d3aaa0efa}</WebResourceId>
+  <Name>safe_isoqar_lead.js</Name>
+  <DisplayName>safe_isoqar_lead.js</DisplayName>
+  <Description>Script for "ISOQAR lead" lead entity form</Description>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>9.1.1.414</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/safe_isoqar_leadjs4AC145D6-B632-EE11-BDF4-000D3AAA0EFA</FileName>
+</WebResource>

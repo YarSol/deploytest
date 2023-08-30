@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{09e3f83b-4bc5-42b5-8ed2-9258fa9ecc5d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="samar_eacname" select="1" icon="1" preview="1">
+        <row name="result" id="samar_eacodeid">
+          <cell name="samar_eacname" width="100" />
+          <cell name="samar_description" width="300" />
+          <cell name="samar_opportunity" width="300" />
+          <cell name="ownerid" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="samar_eacode">
+          <attribute name="samar_eacodeid" />
+          <attribute name="samar_eacname" />
+          <order attribute="samar_eacname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="samar_description" />
+          <attribute name="samar_opportunity" />
+          <attribute name="ownerid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active EA Codes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{12584986-ee9a-4306-81fe-3d073b2a3548}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="samar_isostandard" select="1" icon="1" preview="1">
+        <row name="result" id="samar_isostandardsid">
+          <cell name="samar_isostandard" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="safe_commonstandard" width="146" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="samar_isostandards">
+          <attribute name="samar_isostandard" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="samar_isostandardsid" />
+          <attribute name="safe_commonstandard" />
+          <order attribute="safe_commonstandard" descending="false" />
+          <order attribute="samar_isostandard" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Standards" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

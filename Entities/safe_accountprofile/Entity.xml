@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Account Profile" OriginalName="Account Profile">safe_accountprofile</Name>
+  <EntityInfo>
+    <entity Name="safe_accountprofile">
+      <attributes>
+        <attribute PhysicalName="safe_databaseurl">
+          <Type>nvarchar</Type>
+          <Name>safe_databaseurl</Name>
+          <LogicalName>safe_databaseurl</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>url</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Database URL" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_emailforpotentialclients">
+          <Type>nvarchar</Type>
+          <Name>safe_emailforpotentialclients</Name>
+          <LogicalName>safe_emailforpotentialclients</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Email for Potential Clients" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_iancompanyprofile">
+          <Type>ntext</Type>
+          <Name>safe_iancompanyprofile</Name>
+          <LogicalName>safe_iancompanyprofile</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>2000</MaxLength>
+          <displaynames>
+            <displayname description="IAN Company Profile" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_ianconsultancystatus">
+          <Type>picklist</Type>
+          <Name>safe_ianconsultancystatus</Name>
+          <LogicalName>safe_ianconsultancystatus</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>9.1.1.412</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="safe_accountprofile_safe_ianconsultancystatus">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>9.1.1.412</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="IAN Consultancy Status" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="779150000" ExternalValue="">
+                <labels>
+                  <label description="Established and Growing" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="779150001" ExternalValue="">
+                <labels>
+                  <label description="Established and static" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="779150002" ExternalValue="">
+                <labels>
+                  <label description="Newly engaged active" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="779150003" ExternalValue="">
+                <labels>
+                  <label description="Newly engaged inactive" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="IAN Consultancy Status" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_ianconsultancytype">
+          <Type>picklist</Type>
+          <Name>safe_ianconsultancytype</Name>
+          <LogicalName>safe_ianconsultancytype</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>9.1.1.412</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="safe_accountprofile_safe_ianconsultancytype">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>9.1.1.412</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="IAN Consultancy Type" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="779150000" ExternalValue="">
+                <labels>
+                  <label description="Prospect" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="779150001" ExternalValue="">
+                <labels>
+                  <label description="Standard" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="779150002" ExternalValue="">
+                <labels>
+                  <label description="Premier" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="IAN Consultancy Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_iancoveredindustries">
+          <Type>multiselectpicklist</Type>
+          <Name>safe_iancoveredindustries</Name>
+          <LogicalName>safe_iancoveredindustries</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>9.1.1.414</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="safe_accountprofile_safe_iancoveredindustries">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>9.1.1.414</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="IAN Covered Industries" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="779150000">
+                <labels>
+                  <label description="Aerospace " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150001">
+                <labels>
+                  <label description="Agriculture, fishing " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150002">
+                <labels>
+                  <label description="Automotive " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150003">
+                <labels>
+                  <label description="Basic metals and fabricated metal products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150004">
+                <labels>
+                  <label description="Chemicals, chemical products, and fibres " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150005">
+                <labels>
+                  <label description="Concrete, line, cement, plaster etc. " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150006">
+                <labels>
+                  <label description="Construction " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150007">
+                <labels>
+                  <label description="Education " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150008">
+                <labels>
+                  <label description="Electrical and optical equipment " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150009">
+                <labels>
+                  <label description="Electricity Supply " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150010">
+                <labels>
+                  <label description="Engineering Services " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150011">
+                <labels>
+                  <label description="Financial intermediation, real estate, renting " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150012">
+                <labels>
+                  <label description="Food products, beverages, and tobacco " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150013">
+                <labels>
+                  <label description="Gas Supply " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150014">
+                <labels>
+                  <label description="Health and social work " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150015">
+                <labels>
+                  <label description="Hotels and restaurants " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150016">
+                <labels>
+                  <label description="Information Technology " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150017">
+                <labels>
+                  <label description="Leather and leather products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150018">
+                <labels>
+                  <label description="Machinery and equipment " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150019">
+                <labels>
+                  <label description="Manufacture of coke and refined petroleum products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150020">
+                <labels>
+                  <label description="Manufacturing not elsewhere classified " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150021">
+                <labels>
+                  <label description="Medical devices " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150022">
+                <labels>
+                  <label description="Mining and quarrying " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150023">
+                <labels>
+                  <label description="Non-metallic mineral products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150024">
+                <labels>
+                  <label description="Oil &amp; Gas " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150025">
+                <labels>
+                  <label description="Other " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150026">
+                <labels>
+                  <label description="Other services " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150027">
+                <labels>
+                  <label description="Other social services " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150028">
+                <labels>
+                  <label description="Other transport equipment " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150029">
+                <labels>
+                  <label description="Pharmaceuticals " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150030">
+                <labels>
+                  <label description="Printing companies " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150031">
+                <labels>
+                  <label description="Public sector/Local authority " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150032">
+                <labels>
+                  <label description="Publishing companies " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150033">
+                <labels>
+                  <label description="Pulp, paper, and paper products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150034">
+                <labels>
+                  <label description="Recycling " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150035">
+                <labels>
+                  <label description="Repair of motor vehicles, motorcycles and personal and household goods" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150036">
+                <labels>
+                  <label description="Rubber and plastic products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150037">
+                <labels>
+                  <label description="Security " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150038">
+                <labels>
+                  <label description="Services " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150039">
+                <labels>
+                  <label description="Shipbuilding " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150040">
+                <labels>
+                  <label description="Textiles and textile products " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150041">
+                <labels>
+                  <label description="Transport, storage, and communication " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150042">
+                <labels>
+                  <label description="Wholesale and retail trade " languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150043">
+                <labels>
+                  <label description="Wood and wood products " languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="IAN Covered Industries" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_ianspecialisedstandards">
+          <Type>multiselectpicklist</Type>
+          <Name>safe_ianspecialisedstandards</Name>
+          <LogicalName>safe_ianspecialisedstandards</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>9.1.1.414</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="safe_accountprofile_safe_ianspecialisedstandards">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>9.1.1.414</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="IAN Specialised Standards" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="779150000">
+                <labels>
+                  <label description="Asphalt mixes (HSS 16)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150001">
+                <labels>
+                  <label description="Asphalt production (HSS 14)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150002">
+                <labels>
+                  <label description="Automotive Quality Management (ISO/TS 16949)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150003">
+                <labels>
+                  <label description="BRC Food" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150004">
+                <labels>
+                  <label description="BRC Packaging" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150005">
+                <labels>
+                  <label description="BRC Storage &amp; Distribution" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150006">
+                <labels>
+                  <label description="Business Continuity Management (ISO 22301)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150007">
+                <labels>
+                  <label description="CE Marking Structural Steel (BS EN 1090)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150008">
+                <labels>
+                  <label description="Collaborative Working (ISO 44001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150009">
+                <labels>
+                  <label description="Corrosion Protection (HSS 19A)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150010">
+                <labels>
+                  <label description="Customer Satisfaction (ISO 10002)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150011">
+                <labels>
+                  <label description="Electrical (HSS 8)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150012">
+                <labels>
+                  <label description="Energy Management (ISO 50001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150013">
+                <labels>
+                  <label description="Environmental Management (ISO 14001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150014">
+                <labels>
+                  <label description="Fire Extinguishers (BAFE SP101)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150015">
+                <labels>
+                  <label description="Food Safety (ISO 22000)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150016">
+                <labels>
+                  <label description="GDPR" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150017">
+                <labels>
+                  <label description="Health &amp; Safety (OHSAS 18001 / ISO 45001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150018">
+                <labels>
+                  <label description="Information Security Management (ISO 27001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150019">
+                <labels>
+                  <label description="IT Service Management (ISO 20000)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150020">
+                <labels>
+                  <label description="Medical Devices (ISO 13485)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150021">
+                <labels>
+                  <label description="NHSS" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150022">
+                <labels>
+                  <label description="Quality Management (ISO 9001)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150023">
+                <labels>
+                  <label description="Security Industry Authority - Approved Contractor Scheme" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150024">
+                <labels>
+                  <label description="Sign manufacture (HSS 9A)" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="779150025">
+                <labels>
+                  <label description="Traffic management (HSS 12B)" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="IAN Specialised Standards" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_numberofconsultants">
+          <Type>int</Type>
+          <Name>safe_numberofconsultants</Name>
+          <LogicalName>safe_numberofconsultants</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Number of Consultants" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_numberofemployees">
+          <Type>int</Type>
+          <Name>safe_numberofemployees</Name>
+          <LogicalName>safe_numberofemployees</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Number of Employees" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_region">
+          <Type>multiselectpicklist</Type>
+          <Name>safe_region</Name>
+          <LogicalName>safe_region</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>9.1.1.414</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <OptionSetName>safe_region</OptionSetName>
+          <displaynames>
+            <displayname description="IAN Regions Covered" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="safe_upgradedtopremierdate">
+          <Type>datetime</Type>
+          <Name>safe_upgradedtopremierdate</Name>
+          <LogicalName>safe_upgradedtopremierdate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>date</Format>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Upgraded to Premier Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

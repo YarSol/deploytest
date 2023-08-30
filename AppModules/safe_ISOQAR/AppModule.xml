@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>safe_ISOQAR</UniqueName>
+  <IntroducedVersion>9.1.1.254</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="campaign" />
+    <AppModuleComponent type="1" schemaName="competitor" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="1" schemaName="opportunityclose" />
+    <AppModuleComponent type="1" schemaName="opportunityproduct" />
+    <AppModuleComponent type="1" schemaName="pricelevel" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="safe_accountprofile" />
+    <AppModuleComponent type="1" schemaName="safe_bpf_790a369b76444b419761dc0986298cee" />
+    <AppModuleComponent type="1" schemaName="samar_eacode" />
+    <AppModuleComponent type="1" schemaName="samar_isostandards" />
+    <AppModuleComponent type="26" id="{7f68a34b-26f1-430f-b3ef-7079f2925c69}" />
+    <AppModuleComponent type="26" id="{8ebce151-8451-490d-a8db-59fff97949e8}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="26" id="{6498bcfd-a5a0-ed11-aad1-000d3aaae992}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{af02fee8-ec25-ec11-b6e5-6045bd8b4f79}" />
+    <AppModuleComponent type="26" id="{21a86783-3c31-ee11-bdf4-000d3aaaee06}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{92d15659-89fd-ea11-a813-000d3abc35e1}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
+    <AppModuleComponent type="26" id="{34b36e3b-26a2-ed11-aad1-000d3aaa0efa}" />
+    <AppModuleComponent type="26" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="26" id="{d2637c0f-a9a0-ed11-aad1-000d3aaae992}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001005}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001006}" />
+    <AppModuleComponent type="26" id="{49be62ee-27a2-ed11-aad1-000d3aaa0efa}" />
+    <AppModuleComponent type="26" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
+    <AppModuleComponent type="26" id="{0f63c044-aaa0-ed11-aad1-000d3aaae992}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010003000}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010003001}" />
+    <AppModuleComponent type="29" id="{790a369b-7644-4b41-9761-dc0986298cee}" />
+    <AppModuleComponent type="60" id="{c86eb599-05d2-ed11-a7c7-000d3aaae503}" />
+    <AppModuleComponent type="60" id="{2f541e97-05d2-ed11-a7c7-000d3aaa0efa}" />
+    <AppModuleComponent type="60" id="{9f9d2716-05d2-ed11-a7c7-000d3aaae503}" />
+    <AppModuleComponent type="60" id="{c5866844-8b37-ee11-bdf4-000d3aaae9d9}" />
+    <AppModuleComponent type="60" id="{946f810e-3f31-ee11-bdf4-000d3aaae503}" />
+    <AppModuleComponent type="60" id="{9add862d-3ceb-4342-99cf-fe5a952eebf8}" />
+    <AppModuleComponent type="60" id="{940c7b69-3a65-46c5-b6e9-cb66d95c93d9}" />
+    <AppModuleComponent type="60" id="{45770752-813a-ee11-bdf4-000d3aaae53e}" />
+    <AppModuleComponent type="60" id="{fd549e09-05d2-ed11-a7c7-000d3aaa0efa}" />
+    <AppModuleComponent type="60" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+    <AppModuleComponent type="62" schemaName="safe_ISOQAR" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{b7026d44-c0cf-ed11-b597-000d3aaae503}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="ISOQAR" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="App for use by the ISOQAR team" languagecode="1033" />
+  </Descriptions>
+</AppModule>

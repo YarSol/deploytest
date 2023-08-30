@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{34b36e3b-26a2-ed11-aad1-000d3aaa0efa}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="leadid">
+          <cell name="fullname" width="300" />
+          <cell name="safe_brand" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="companyname" ishidden="1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="lead">
+          <attribute name="fullname" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="createdon" />
+          <attribute name="statuscode" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="safe_brand" />
+          <attribute name="leadid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Open Leads Ref Panel View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
