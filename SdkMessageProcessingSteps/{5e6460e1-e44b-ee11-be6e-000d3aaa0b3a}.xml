@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="ClassLibrary1.Class1: Create of alc_jax_entity" SdkMessageProcessingStepId="{5e6460e1-e44b-ee11-be6e-000d3aaa0b3a}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>ClassLibrary1.Class1, ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66580724707396a9</PluginTypeName>
+  <PluginTypeId>45836dfe-df22-43a8-9106-b914b4a44a33</PluginTypeId>
+  <PrimaryEntity>alc_jax_entity</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>ClassLibrary1.Class1: Create of alc_jax_entity</Description>
+  <FilteringAttributes>alc_name</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

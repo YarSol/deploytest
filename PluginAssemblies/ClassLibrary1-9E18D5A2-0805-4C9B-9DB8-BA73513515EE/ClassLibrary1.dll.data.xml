@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66580724707396a9" PluginAssemblyId="9e18d5a2-0805-4c9b-9db8-ba73513515ee" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ClassLibrary1-9E18D5A2-0805-4C9B-9DB8-BA73513515EE/ClassLibrary1.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="ClassLibrary1.Class1, ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66580724707396a9" PluginTypeId="45836dfe-df22-43a8-9106-b914b4a44a33" Name="ClassLibrary1.Class1">
+      <FriendlyName>952345d2-3683-4740-952a-620f51234ec2</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
